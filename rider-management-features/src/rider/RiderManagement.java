@@ -233,32 +233,6 @@ public class RiderManagement extends JFrame{
         panel.add(field);
     }
 
-//    private JPanel createCapacityPanel(){
-//        JPanel panel = createWhitePanel();
-//        panel.setPreferredSize(new Dimension(300, 220));
-//        panel.setLayout(new BorderLayout(0, 12));
-//
-//        JLabel title = new JLabel("Delivery Capacity");
-//        title.setFont(new Font("Arial", Font.BOLD, 17));
-//        title.setForeground(TEXT);
-//
-//        JLabel explanation = new JLabel("<html><div style='width:230px'>"
-//                + "<b>Maximum Active Orders</b><br>"
-//                + "The highest number of unfinished orders a rider can handle."
-//                + "<br><br><b>Active Orders</b><br>"
-//                + "Orders that are not yet delivered or cancelled."
-//                + "<br><br><b>Remaining Capacity</b><br>"
-//                + "Maximum Orders minus Active Orders."
-//                + "</div></html>");
-//        explanation.setFont(new Font("Arial", Font.PLAIN, 13));
-//        explanation.setForeground(new Color(100, 110, 125));
-//
-//        panel.add(title, BorderLayout.NORTH);
-//        panel.add(explanation, BorderLayout.CENTER);
-//
-//        return panel;
-//    }
-
     private JPanel createTablePanel(){
         JPanel panel = createWhitePanel();
         panel.setLayout(new BorderLayout(0, 12));
