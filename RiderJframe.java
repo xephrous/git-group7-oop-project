@@ -1,5 +1,7 @@
 package riderfeatures;
 
+//USE ECLIPSE IDE TO DISPLAY
+
 import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
