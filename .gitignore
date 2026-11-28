@@ -1,0 +1,14 @@
+# NetBeans build files
+/build/
+/dist/
+
+# Compiled Java files
+*.class
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
