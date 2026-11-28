@@ -66,10 +66,10 @@ public class RiderJframe extends JFrame {
 	        pnlSidebar.setBounds(0, 0, 245, 729);
 	        getContentPane().add(pnlSidebar);
 
-	        lblSystemName = new JLabel("<html>DELIVERY<br>TRACKER</html>");
+	        lblSystemName = new JLabel("<html>DELIVERY TRACKER</html>");
 	        lblSystemName.setForeground(Color.WHITE);
 	        lblSystemName.setFont(new Font("Arial", Font.BOLD, 22));
-	        lblSystemName.setBounds(28, 28, 190, 65);
+	        lblSystemName.setBounds(10, 28, 235, 65);
 	        pnlSidebar.add(lblSystemName);
 
 	        JLabel lblMenu = new JLabel("MAIN MENU");
@@ -222,7 +222,7 @@ public class RiderJframe extends JFrame {
 	        lblTableTitle.setBounds(20, 12, 300, 30);
 	        pnlTable.add(lblTableTitle);
 
-	        JLabel lblTableInfo = new JLabel("Riders Records");
+	        JLabel lblTableInfo = new JLabel("Registered Riders Lists");
 	        lblTableInfo.setFont(new Font("Arial", Font.PLAIN, 12));
 	        lblTableInfo.setForeground(new Color(120, 130, 145));
 	        lblTableInfo.setBounds(20, 40, 400, 22);
